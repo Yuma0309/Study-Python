@@ -1,0 +1,9 @@
+text = input('年齢は？')
+if text.isdigit():
+    age = int(text)
+    if age < 20:
+        print('未成年')
+    elif age < 65:
+        print('成人')
+    else:
+        print('高齢者')

@@ -1,0 +1,2 @@
+text = 'ハロー！'
+print(text)
